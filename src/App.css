@@ -3,18 +3,48 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex;
+  
 }
 
 .product {
-  background: white;
-  display: flex;
-  flex-direction: row;
-  border: 2px solid black;
-  border-radius: 3px;
-  width: 100px;
-  height: 100px;
-  margin: 25px;
+  background-color: lightcyan;
+  display: ruby;
+  flex-direction: column;
+  border: lightskyblue solid 1px;
+  white-space: nowrap;
+  margin-left: auto;
+  margin-right: auto;
+ 
+  
+  
 }
+body{
+
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-feature-settings: "zero";
+  background-attachment: fixed;
+  cursor: url('https://i.imgur.com/87swDmN.png'),wait;
+ 
+}
+.product {
+  
+  
+  -webkit-transition: width 3s, height 3s, -webkit-transform 3s; /* For Safari 3.1 to 6.0 */
+  transition: width 3s, height 3s, transform 3s;
+  
+}
+div:hover {
+
+  -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+  transform: rotate(180deg);
+}
+
+
+  
+
+
+
+
 
 
